@@ -23,7 +23,7 @@ public class MyList<T extends Number> {
         }
         return min;
     }
-    public T LargestValue() {
+    public T largestValue() {
         T max = arrayList.get(0);
         for (T value : arrayList) {
             if (max.doubleValue() < value.doubleValue()) {

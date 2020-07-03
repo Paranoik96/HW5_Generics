@@ -13,7 +13,7 @@ public class Application {
         myFloatList.add(16.7f);
 
         System.out.println("Thw Smallest value is : " + myFloatList.smallestValue());
-        System.out.println("Thw Largest value is : " + myFloatList.LargestValue());
+        System.out.println("Thw Largest value is : " + myFloatList.largestValue());
 
         ModifiedList<Integer> modifiedList = new ModifiedList<>();
         modifiedList.add(22);
