@@ -1,8 +1,8 @@
 package com.cursor.generics;
 
-import com.cursor.generics.MyList.HighestAndLowest;
-import com.cursor.generics.MyList.ModifiedList;
-import com.cursor.generics.MyList.MyList;
+import com.cursor.generics.mylist.HighestAndLowest;
+import com.cursor.generics.mylist.ModifiedList;
+import com.cursor.generics.mylist.MyList;
 
 public class Application {
     public static void main(String[] args) {
@@ -34,7 +34,5 @@ public class Application {
         HighestAndLowest highestAndLowest = new HighestAndLowest(array);
         System.out.println(highestAndLowest.highestValue());
         System.out.println(highestAndLowest.lowestValue());
-
-
     }
 }

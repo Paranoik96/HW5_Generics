@@ -1,4 +1,4 @@
-package com.cursor.generics.MyList;
+package com.cursor.generics.mylist;
 
 public class HighestAndLowest<T extends Comparable> {
 
@@ -6,10 +6,6 @@ public class HighestAndLowest<T extends Comparable> {
 
     public HighestAndLowest(T[] array) {
         this.array = array;
-    }
-
-    public T[] getArray() {
-        return array;
     }
 
     public T lowestValue() {

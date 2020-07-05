@@ -1,14 +1,10 @@
-package com.cursor.generics.MyList;
+package com.cursor.generics.mylist;
 
 import java.util.ArrayList;
 
 public class MyList<T extends Number> {
 
     private ArrayList<T> arrayList = new ArrayList<T>();
-
-    public ArrayList<T> getArrayList() {
-        return arrayList;
-    }
 
     public void add(T value) {
         arrayList.add(value);
