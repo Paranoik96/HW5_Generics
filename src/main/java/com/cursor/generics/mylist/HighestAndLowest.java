@@ -1,6 +1,6 @@
 package com.cursor.generics.mylist;
 
-public class HighestAndLowest<T extends Comparable> {
+public class HighestAndLowest<T extends Comparable<T>> {
 
     private T[] array;
 

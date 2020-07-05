@@ -31,7 +31,7 @@ public class Application {
         System.out.println(modifiedListSting.getArrayList());
 
         Integer[] array = {4, 56, 656, 75, 4, 232, 1, 66, 64, 898};
-        HighestAndLowest highestAndLowest = new HighestAndLowest(array);
+        HighestAndLowest<Integer> highestAndLowest = new HighestAndLowest<>(array);
         System.out.println(highestAndLowest.highestValue());
         System.out.println(highestAndLowest.lowestValue());
     }

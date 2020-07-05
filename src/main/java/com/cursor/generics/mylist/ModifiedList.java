@@ -1,16 +1,17 @@
 package com.cursor.generics.mylist;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class ModifiedList<T extends Comparable>  {
+public class ModifiedList<T extends Comparable<T>>  {
 
-   private ArrayList<T> arrayList = new ArrayList<T>();
+   private List<T> list = new ArrayList<T>();
 
-    public ArrayList<T> getArrayList() {
-        return arrayList;
+    public List<T> getArrayList() {
+        return list;
     }
 
     public void add(T value) {
-        arrayList.add(value);
+        list.add(value);
     }
 }
